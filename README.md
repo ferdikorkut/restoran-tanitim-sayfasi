@@ -164,7 +164,7 @@ Bir `<table>` ile fiyat listesi oluşturun.
 
 ```
 ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
-│ ⭐⭐⭐⭐⭐     │  │ ⭐⭐⭐⭐       │  │ ⭐⭐⭐⭐⭐     │
+│ ⭐⭐⭐⭐⭐   │  │ ⭐⭐⭐⭐    │  │ ⭐⭐⭐⭐⭐   │
 │ "Harika      │  │ "Güzel       │  │ "Kesinlikle  │
 │  lezzetler!" │  │  mekan."     │  │  tavsiye     │
 │              │  │              │  │  ederim!"    │
