@@ -10,8 +10,76 @@ ul,
 ol {
   list-style: none;
 }
+
 /* Linkerdeki alt çizgileri kaldırıyoruz */
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* Sayfanın genel düzenini yapiyoruz */
+body {
+  font-family: Arial, sans-serif;
+  /* Font verdik */
+  line-height: 1.6;
+  /* Satır yüksekliği verdik */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #7b7b7b;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  /*  Yatay sıraladik*/
+  justify-content: center;
+  /* Elemanları ortaladik */
+  gap: 30px;
+  /* Elemanlar arasına boşluk ekledik */
+}
+
+main {
+  background-color: #ebeaea;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 0.7rem;
+}
+
+article {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.yemek-karti {
+  background-color: #eeeeee;
+  padding: 20px;
+}
+
+.yorum-karti {
+  background-color: #dddddd;
+  padding: 20px;
 }
