@@ -1,0 +1,17 @@
+/* Tüm elementlerin varsayılan boşluklarını sıfırlıyoruz */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Listelerdeki noktaları kaldırıyoruz */
+ul,
+ol {
+  list-style: none;
+}
+/* Linkerdeki alt çizgileri kaldırıyoruz */
+a {
+  text-decoration: none;
+  color: inherit;
+}
