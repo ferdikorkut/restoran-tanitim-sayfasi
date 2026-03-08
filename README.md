@@ -7,16 +7,16 @@ Proje tek sayfalık basit bir **restoran tanıtım sitesi** olacaktır.
 
 ### Kullanılacak CSS Konuları
 
-| #  | Konu                         |
-|----|------------------------------|
-| 1  | `margin`                     |
-| 2  | `padding`                    |
-| 3  | `display`                    |
-| 4  | `background` / `background-color` |
-| 5  | `list-style`                 |
-| 6  | `link` ve `hover` kullanımı  |
-| 7  | `table` stil verme           |
-| 8  | `position: fixed`            |
+| #   | Konu                              |
+| --- | --------------------------------- |
+| 1   | `margin`                          |
+| 2   | `padding`                         |
+| 3   | `display`                         |
+| 4   | `background` / `background-color` |
+| 5   | `list-style`                      |
+| 6   | `link` ve `hover` kullanımı       |
+| 7   | `table` stil verme                |
+| 8   | `position: fixed`                 |
 
 ---
 
@@ -56,8 +56,9 @@ Sayfa aşağıdaki **9 bölümden** oluşacaktır:
 Sayfanın en üstünde bir başlık bölümü oluşturun.
 
 **İçerik:**
+
 - Restoran adı (örn. **Ali'nin Restoranı**)
-- Kısa bir slogan (örn. *Geleneksel Türk Yemekleri*)
+- Kısa bir slogan (örn. _Geleneksel Türk Yemekleri_)
 
 **Beklenen Görünüm:**
 
@@ -68,7 +69,6 @@ Sayfanın en üstünde bir başlık bölümü oluşturun.
 ╚══════════════════════════════════╝
 ```
 
-
 ---
 
 ### Görev 2 — Navigation Menü
@@ -76,6 +76,7 @@ Sayfanın en üstünde bir başlık bölümü oluşturun.
 Header'ın altında bir **yatay navigasyon menüsü** oluşturun.
 
 **Menü Linkleri:**
+
 - Hakkımızda
 - Günün Menüsü
 - Fiyatlar
@@ -83,10 +84,10 @@ Header'ın altında bir **yatay navigasyon menüsü** oluşturun.
 - İletişim
 
 **Kurallar:**
+
 - `<ul>` / `<li>` liste yapısı kullanılacak
 - `display: inline-block` ile yatay hizalama yapılacak
 - Hover'da link rengi değişecek
-
 
 ---
 
@@ -95,11 +96,11 @@ Header'ın altında bir **yatay navigasyon menüsü** oluşturun.
 Restoran hakkında kısa bir açıklama bölümü oluşturun.
 
 **İçerik:**
+
 - Bir başlık (`<h2>`)
 - Bir açıklama paragrafı (`<p>`)
 
 **Amaç:** Paragrafın bir **kutu görünümünde** olması.
-
 
 ---
 
@@ -109,8 +110,8 @@ Bu bölümde **3 farklı yemek** kartı gösterilecektir.
 
 **Örnek yemekler:**
 
-| Kart | Yemek Adı       | Açıklama                  |
-|------|-----------------|---------------------------|
+| Kart | Yemek Adı        | Açıklama                   |
+| ---- | ---------------- | -------------------------- |
 | 1    | Mercimek Çorbası | Geleneksel lezzet          |
 | 2    | Tavuk Pilav      | Tereyağlı pilav üstü tavuk |
 | 3    | Sütlaç           | Fırında klasik sütlaç      |
@@ -126,6 +127,7 @@ Bu bölümde **3 farklı yemek** kartı gösterilecektir.
 │              │  │ tavuk        │  │ sütlaç       │
 └──────────────┘  └──────────────┘  └──────────────┘
 ```
+
 `
 
 ---
@@ -136,16 +138,15 @@ Bir `<table>` ile fiyat listesi oluşturun.
 
 **Tablo Yapısı:**
 
-| Yemek            | Fiyat  |
-|------------------|--------|
-| Mercimek Çorbası | 50 ₺   |
-| Tavuk Pilav      | 90 ₺   |
-| Sütlaç           | 45 ₺   |
-| Adana Kebap      | 120 ₺  |
-| Ayran             | 15 ₺   |
+| Yemek            | Fiyat |
+| ---------------- | ----- |
+| Mercimek Çorbası | 50 ₺  |
+| Tavuk Pilav      | 90 ₺  |
+| Sütlaç           | 45 ₺  |
+| Adana Kebap      | 120 ₺ |
+| Ayran            | 15 ₺  |
 
 **Ek Görev:** Tablonun **çift satırları farklı renkte** olmalıdır.
-
 
 ---
 
@@ -154,6 +155,7 @@ Bir `<table>` ile fiyat listesi oluşturun.
 **3 farklı müşteri yorumu** kutu içinde ve **yan yana** gösterilecektir.
 
 **Her kutuda:**
+
 - ⭐ Yıldız değerlendirmesi
 - Kısa yorum
 - Müşteri adı
@@ -170,7 +172,6 @@ Bir `<table>` ile fiyat listesi oluşturun.
 └──────────────┘  └──────────────┘  └──────────────┘
 ```
 
-
 ---
 
 ### Görev 7 — İletişim Bölümü
@@ -182,7 +183,6 @@ Aşağıdaki iletişim bağlantılarını oluşturun:
 - 📧 Email
 
 **Hover davranışı:** Mouse üzerine geldiğinde renk değişmelidir.
-
 
 ---
 
@@ -196,7 +196,6 @@ Sayfanın en altında bir footer oluşturun.
 © 2026 Ali'nin Restoranı
 ```
 
-
 ---
 
 ### Görev 9 — Sabit Telefon İkonu
@@ -204,9 +203,8 @@ Sayfanın en altında bir footer oluşturun.
 Sayfanın **sağ alt köşesinde** sabit duran bir telefon ikonu ekleyin.  
 Sayfa kaydırılsa bile ikon **yerinde kalmalıdır**.
 
-
-
 ## Ornek Goruntu
-![Ornek Goruntu](image1.png)
---
-![Ornek Goruntu](image2.png)
+
+## ![Ornek Goruntu](/assets/img/image1.png)
+
+![Ornek Goruntu](/assets/img/image2.png)
